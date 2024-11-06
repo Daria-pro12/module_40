@@ -1,0 +1,36 @@
+.first-screen {
+	margin-top: 20px !important;
+}
+
+.our-advantages, .our-tariffs {
+	margin-top: 110px;
+}
+
+.our-tariffs {
+	margin-bottom: 110px;
+}
+
+@media screen and (max-width: 900px) {
+	.our-advantages {
+		margin-top: 350px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.our-advantages {
+		margin-top: 200px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.our-advantages {
+		margin-top: 120px;
+	}
+}
+
+.first-screen {
+	max-height: max-content;
+	width: 100%;
+	height: 620px;
+	margin: 0 auto;
+}

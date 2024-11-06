@@ -1,0 +1,21 @@
+.div-main {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1440px;
+	margin: 25px auto 80px;
+}
+
+.div-text {
+	margin-right: 40px;
+}
+
+.div-form {
+	margin-top: 70px;
+}
+
+@media screen and (max-width: 1000px) {
+	.div-main {
+		flex-direction: column;
+		max-height: max-content;
+	}
+}

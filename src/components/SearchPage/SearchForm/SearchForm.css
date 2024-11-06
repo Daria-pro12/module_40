@@ -1,0 +1,145 @@
+.card-search-form {
+	padding: 30px 40px 20px;
+	margin: 0 !important;
+	font-family: 'Inter';
+	font-size: 18px;
+	width: 870px;
+	min-width: 330px;
+}
+
+.search-form {
+	display: flex;
+	justify-content: space-between;
+}
+
+.search-form-label {
+	display: block;
+}
+
+.search-form-input::placeholder {
+	text-align: center;
+	padding-left: 0;
+}
+
+.search-form-input {
+	width: 240px;
+	height: 43px;
+	margin-top: 10px;
+	border: 1px solid;
+	border-radius: 5px;
+	font-size: 14px;
+	font-family: inherit;
+	padding-left: 15px;
+}
+
+.search-form-input:focus {
+	outline: none;
+}
+
+.search-range {
+	display: flex;
+	gap: 20px;
+}
+
+.range-input {
+	width: 175px;
+}
+
+.error-data {
+	width: 240px;
+}
+
+.error-data-range {
+	width: 370px;
+}
+
+.additional-conditions {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	/*flex: 1.1; */
+}
+
+.conditions-checkbox {
+	text-align: left;
+}
+
+.conditions-checkbox-label {
+	padding-left: 15px;
+}
+
+.conditions-checkbox-input {
+	appearance: none;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #949494;
+	outline: none;
+	transition: 500ms;
+	vertical-align: bottom;
+}
+
+.conditions-checkbox-input::after {
+	content: "";
+	position: absolute;
+	background-image: url("../../../assets/images/yes.svg");
+	background-repeat: no-repeat;
+	top: -1px;
+	left: -1px;
+}
+
+.conditions-checkbox-input:checked {
+	border-color: black;
+}
+
+.conditions-checkbox-input:checked::after {
+	width: 20px;
+	height: 20px;
+	transition: 500ms;
+}
+
+.necessarily {
+	color: #949494;
+	font-size: 14px;
+}
+
+.btn {
+	text-align: right;
+	margin-top: 60px;
+}
+
+.btn-mob {
+	margin-top: 20px;
+	display: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+	.card-search-form, .search-form-input, .range-input, .error-data-range, .error-data {
+		width: 100%;
+	}
+
+	.search-range {
+		flex-direction: column;
+	}
+
+	.additional-conditions {
+		display: none;
+	}
+
+	.btn-mob {
+		 display: block;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.search-form-label {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.card-search-form {
+		padding: 30px 15px 20px;
+	}
+}

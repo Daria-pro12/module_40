@@ -1,0 +1,29 @@
+.css-17evs8u-MuiToolbar-root {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.drawer-nav {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 26px;
+}
+
+.nav-desktop {
+    font-size: 14px;
+}
+
+.nav-desktop-item {
+    text-decoration: none;
+    font-family: "Inter";
+    color: #000;
+    margin: 0 25px;
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-desktop {
+        display: none;
+    }
+}

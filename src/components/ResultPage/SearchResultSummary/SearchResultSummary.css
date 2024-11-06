@@ -1,0 +1,36 @@
+.total-count {
+    text-align: left;
+    color: #949494;
+}
+
+.card-div {
+    display: flex;
+}
+
+.card-div .card-sum {
+    display: flex;
+    flex-grow: 2;
+    margin: 20px 0;
+    box-shadow: none;
+}
+
+.table-head {
+    display: flex;
+    gap: 26px;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.table-head .table-head-item {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+	.table-head .table-head-item {
+        font-size: 18px;
+    }
+
+    .general-summary {
+        margin-top: 60px !important;
+    }
+}

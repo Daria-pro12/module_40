@@ -1,0 +1,94 @@
+.data-source {
+    display: flex;
+	gap: 15px;
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+.text-data, .text-source, .text-news, .num-word {
+	font-size: 16px;
+}
+
+.card-news .name-news {
+	font-size: 26px;
+	line-height: 32px;
+	font-weight: 600;
+	text-align: left;
+}
+
+.text-source {
+	text-decoration: underline;
+}
+
+.card-news .type {
+	font-size: 12px;
+	text-align: left;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+.card-news .type-span {
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+.card-news img {
+	width: 98%;
+	border-radius: 10px;
+}
+
+.card-news .text-news {
+	text-align: left;
+	line-height: 20px;
+	margin-top: 20px;
+}
+
+.card-footer {
+	display: flex;
+	justify-content: space-between;
+    align-items: flex-end;
+	margin-top: 30px;
+}
+
+.card-footer .card-footer-btn {
+	height: 50px;
+	border-radius: 5px;
+}
+
+.btn-a {
+	text-decoration: none;
+	color:black;
+	letter-spacing: 0.1px;
+}
+
+@media screen and (max-width: 900px) {
+	.text-data, .text-source, .num-word {
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.card-news .name-news {
+		font-size: 19px;
+		line-height: 22px;
+	}
+
+	.card-news .type {
+		font-size: 10px;
+	}
+
+	.card-news .type-span {
+		margin-top: 25px;
+	}
+
+	.card-news .text-news {
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.card-news .card-footer .card-footer-btn {
+		height: 40px;
+		min-width: 195px;
+	}
+
+	.btn-a {
+		font-size: 14px;
+	}
+}

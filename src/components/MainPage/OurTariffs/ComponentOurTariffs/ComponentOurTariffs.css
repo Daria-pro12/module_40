@@ -1,0 +1,121 @@
+.tarif-card {
+    flex: 1;
+    max-width: 415px;
+    min-width: 335px;
+    min-height: 500px;
+    margin: 3px !important;
+}
+
+.card-header {
+    display: flex;
+    position: relative;
+}
+
+.tarif-header {
+    padding: 30px 0 30px 20px;
+}
+
+.tarif-header .tarif-name {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.tarif-header .tarif-name-description {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.tarif-img {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.current-tarif {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 10px;
+    text-align: right;
+}
+
+.current-tarif-span {
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.tarif-price {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    column-gap: 20px;
+}
+
+.tarif-price .price-current {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.price-old {
+    font-size: 25px;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.price-in {
+    font-size: 18px;
+    padding: 10px 10px 10px 20px;
+    text-align: left;
+}
+
+.tarif-card .tariff-includes {
+    padding: 60px 0 10px 20px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.tariff-includes-list {
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 55px;
+    margin: 0;
+    list-style: none;
+}
+
+.tariff-includes-item {
+    display: flex;
+    gap: 8px;
+}
+
+.item-text {
+    font-family: "Inter";
+    font-size: 18px;
+}
+
+.tarif-card  .tarif-btn {
+    width: 90%;
+    margin: 0 20px 30px 20px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .tarif-header .tarif-name-description,
+    .price-in, .item-text  {
+        font-size: 16px;
+    }
+
+    .tarif-card .tariff-includes,  .tarif-card .tarif-btn {
+        font-size: 18px;
+    }
+
+    .tariff-includes-list {
+        padding-bottom: 35px;
+    }
+
+    .tarif-card .tariff-includes {
+        padding-top: 35px;
+    }
+}

@@ -1,0 +1,125 @@
+.card-form {
+	min-width: 330px;
+	position: relative;
+	padding: 10px 25px;
+	max-height: 720px;
+	overflow: visible !important;
+}
+
+.auth-form {
+	font-family: 'Inter';
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.btn-group {
+	display: flex;
+	justify-content: space-evenly;
+	column-gap: 20px;
+}
+
+.form-label {
+	font-size: 16px;
+	line-height: 20px;
+	color: #949494;
+	text-align: left;
+}
+
+.form-label-login {
+	margin: 40px 0 15px;
+}
+
+.form-label-password {
+	margin: 20px 0 15px;
+}
+
+.form-input {
+	border: 1px solid;
+	border-radius: 5px;
+	height: 43px;
+	padding: 20px;
+}
+
+.form-input:focus {
+	outline: none;
+}
+
+.error-data {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+
+.auth-form .btn {
+	background-color: transparent;
+	font-size: 16px;
+	min-width: auto;
+	padding: 8px 20px;
+	border-radius: 0;
+}
+
+.auth-form .btn:hover {
+	box-shadow: none;
+	background-color: transparent;
+}
+
+.auth-form .register_btn {
+	color: #c7c7c7;
+	border-bottom: 2px solid #c7c7c7;
+}
+
+.auth-form .log-in {
+	text-align: left;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #949494;
+}
+
+.recover-password {
+	color: #5970FF;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.btn-log {
+	display: flex;
+	gap: 10px;
+}
+
+.btn-log-in {
+	border: none;
+	outline: none;
+	background-color: white;
+	cursor: pointer;
+	padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+
+	.card-form {
+		max-width: 330px;
+		margin: 0 !important;
+		padding: 20px 15px;
+		margin-bottom: 50px !important;
+	}
+
+	.auth-form {
+		max-width: 375px;
+	}
+
+	.form-label,
+	.auth-form .btn {
+		font-size: 14px;
+	}
+
+	.auth-form .register_btn {
+		width: 183px;
+	}
+
+	.btn-log {
+		gap: 7px;
+	}
+
+}
